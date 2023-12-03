@@ -14,3 +14,10 @@
 - gulp 编译完会在public生成相应的前端文件
 
 # 3、使用Elixir编译Less
+
+# 4、合并压缩静态文件；可以减少网站的http请求，稍微优化性能，提高网站的用户体验
+- gulp --production 会压缩合并静态文件 
+
+# 5、解决浏览器缓存问题 Version
+- version关键字
+- 页面引入 href="{{ elixir('css/all.css') }}"
