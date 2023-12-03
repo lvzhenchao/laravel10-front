@@ -21,3 +21,16 @@
 # 5、解决浏览器缓存问题 Version
 - version关键字
 - 页面引入 href="{{ elixir('css/all.css') }}"
+
+# 6、yarn包管理
+- Yarn 是有 facebook 发布的前端包依赖管理工具，相对于之前使用的 npm 来说，它更快，更合理，更安全
+- 安装yarn
+- time npm install 看时间
+- time yarn 看时间
+
+# 6-1、yarn add 包
+
+# 7、Laravel 项目使用 browserSync
+- browserSync：
+- 不仅支持实时同步代码，实时刷新，而且还支持实时滚动
+- gulp watch
